@@ -16,9 +16,9 @@ public class PTra01_06 {
 
 
 		// ★ 変数 str の中身を出力してください
-String name;
-name="根本幸菜";
-System.out.println(name);
+		String name;
+		name="根本幸菜";
+		System.out.println(name);
 
 	}
 }

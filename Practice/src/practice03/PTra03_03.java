@@ -10,20 +10,21 @@ public class PTra03_03 {
 	public static void main(String[] args) {
 		// 入力型プログラムです。
 		// 下記の命令は、入力型プログラムで必要な記述になります。
+		//
 		java.util.Scanner scanner = new java.util.Scanner(System.in);
-
+		//文字列を呼び出す為にsucannerという文が必要（上の文）
 		System.out.println("数字を入力してください");
 
 		// コマンドプロンプトで入力した文字列が変数lineに代入されます
 		String line = scanner.nextLine();
-
+		//scanner.nextlineとはコマンドプロンプト（コンソール）に自分で入力する為に使われる
 		// 文字列を数字に変換して、変数numに代入します
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int num = Integer.parseInt(line);
-
+		//lineをint型のnumnに入れる（格納）する
 		//---------------------ここから本題-----------------------
 		// ★ 入力された値が、3で割り切れる数字か判定する条件式を記述してください
-		if () {
+		if (num%3==0) {
 			System.out.println("3で割り切れる数字です");
 		} else {
 			System.out.println("3で割り切れない数字です");

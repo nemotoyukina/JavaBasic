@@ -1,4 +1,5 @@
 package practice03;
+
 /*
  * PTra03_04.java
  *   作成	LIKEIT	2017
@@ -32,7 +33,13 @@ public class PTra03_04 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
+		if(num%4==0) {
+			System.out.println("～年はうるう年です");
+		}else if(num%400==0){
+			System.out.println("～年はうるう年です");
+		}else {
+			System.out.println("～年はうるう年ではありません");
+		}
 
 	}
 }
